@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter Web App TEST",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/web_app/lib/main.dart",
+            "deviceId": "web-server",
+            "toolArgs": [
+                "--web-port=8181"
+            ]
+        },
+        {
+            "name": "Flutter Web App",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/web_app/lib/main.dart",
+            "deviceId": "web-server",
+            "toolArgs": [
+                "--web-port=8181"
+            ]
+        },
+        {
+            "name": "Flutter Web App (Profile Mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/web_app/lib/main.dart",
+            "flutterMode": "profile",
+            "deviceId": "web-server",
+            "toolArgs": [
+                "--web-port=8181"
+            ]
+        },
+        {
+            "name": "Flutter Web App (Release Mode)",
+            "request": "launch",
+            "type": "dart",q
+            "program": "${workspaceFolder}/web_app/lib/main.dart",
+            "flutterMode": "release",
+            "deviceId": "web-server",
+            "toolArgs": [
+                "--web-port=8181"
+            ]
+        }
+    ]
+}
