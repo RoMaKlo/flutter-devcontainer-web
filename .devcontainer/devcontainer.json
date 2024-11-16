@@ -1,0 +1,20 @@
+{
+	"name": "Flutter",
+	"dockerFile": "Dockerfile",
+	// Set *default* container specific settings.json values on container create.
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"terminal.integrated.shell.linux": "/bin/bash"
+			},
+			"extensions": [
+				"dart-code.dart-code",
+				"dart-code.flutter"
+			]
+		}
+	},
+	"forwardPorts": [
+		8181
+	],
+	"postCreateCommand": "flutter doctor"
+}
